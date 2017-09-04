@@ -1,0 +1,15 @@
+adm:!:4:4::/var/adm:
+uucp:!:5:5::/usr/lib/uucp: 
+#comment line 1 uucp:!:5:5::/usr/lib/uucp:
+guest:!:100:100::/home/guest:
+#comment line 2 guest:!:100:100::/home/guest:
+nobody:!:4294967294:4294967294::/:
+lpd:!:9:4294967294::/:
+#comment line 3 lpd:!:9:4294967294::/:
+lp:*:11:11::/var/spool/lp:/bin/false 
+invscout:*:200:1::/var/adm/invscout:/usr/bin/ksh
+#comment line 4 invscout:*:200:1::/var/adm/invscout:/usr/bin/ksh
+nuucp:*:6:5:uucp login user:/var/spool/uucppublic:/usr/sbin/uucp/uucico
+paul:!:201:1::/home/paul:/usr/bin/ksh
+#comment line 5 paul:!:201:1::/home/paul:/usr/bin/ksh
+jdoe:*:202:1:John Doe:/home/jdoe:/usr/bin/ksh 
