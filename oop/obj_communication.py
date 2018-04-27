@@ -11,8 +11,7 @@ class FOO():
     #os.system("clear")
     z = self.values[x] * self.values[y]
     print "%r * %r = %r" % (self.values[x], self.values[y], z)
-  
-  
+
 class BAR():
   def __init__(self, f):
     self.foo1 = f

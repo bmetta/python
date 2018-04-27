@@ -4,7 +4,8 @@ import sys
 
 print ("Here's your file %r:" % sys.argv[1])
 
-f = open(sys.argv[1], 'r')
+#f = open(sys.argv[1], 'r')
+with open(sys.argv[1], 'r') as f:
 
 total = 0
 for line in f:
