@@ -1,0 +1,10 @@
+Lambda operator/function is anonymous functions, i.e. functions without a name
+Lambda functions are used in combination with the functions filter(), map() and reduce()
+
+syntax: 
+lambda argument_list: expression
+
+eg: lambda function returns the sum of its arguments
+>>> f = lambda x, y : x + y
+>>> f(1, 1)
+2

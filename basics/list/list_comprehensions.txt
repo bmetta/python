@@ -1,0 +1,6 @@
+list comprehensions are used for creating new list from another iterables
+
+syntax:
+  new_list = [expression for_loop_one_or_more conditions]
+
+returns: list
